@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	flex-direction: row;
+	gap:10px;
+	
+}
+
+.panel{
+	height:500px;
+	width:100px;
+	border-radius:40px;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+.panel.active{
+	width:900px;	
+}
+
+.img-text{
+	text-align:center;
+	color:white;
+}
+
+
